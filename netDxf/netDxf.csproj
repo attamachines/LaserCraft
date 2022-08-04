@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectType>local</ProjectType>
+    <ProjectVersion>7.10.377</ProjectVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F3D024F3-1ED3-4849-BA34-83F1D2A54E58}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <AssemblyName>netDxf</AssemblyName>
+    <OutputType>Library</OutputType>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <Reference Include="System.Drawing" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="System" />
+    <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="Global.cs" />
+    <Compile Include="netDxf\CoordinateSystem.cs" />
+    <Compile Include="netDxf\ClippingBoundaryType.cs" />
+    <Compile Include="netDxf\BoundingRectangle.cs" />
+    <Compile Include="netDxf\AciColor.cs" />
+    <Compile Include="netDxf\Transparency.cs" />
+    <Compile Include="netDxf\ClippingBoundary.cs" />
+    <Compile Include="netDxf\Lineweight.cs" />
+    <Compile Include="netDxf\Vector2.cs" />
+    <Compile Include="netDxf\Vector3.cs" />
+    <Compile Include="netDxf\Matrix3.cs" />
+    <Compile Include="netDxf\DxfObjectCode.cs" />
+    <Compile Include="netDxf\DxfObject.cs" />
+    <Compile Include="netDxf\StringEnum.cs" />
+    <Compile Include="netDxf\StringValueAttribute.cs" />
+    <Compile Include="netDxf\SubclassMarker.cs" />
+    <Compile Include="netDxf\Symbols.cs" />
+    <Compile Include="netDxf\DxfDocument.cs" />
+    <Compile Include="netDxf\MathHelper.cs" />
+    <Compile Include="netDxf\XData.cs" />
+    <Compile Include="netDxf\XDataCode.cs" />
+    <Compile Include="netDxf\XDataRecord.cs" />
+    <Compile Include="netDxf\Header\AttMode.cs" />
+    <Compile Include="netDxf\Header\HeaderVariables.cs" />
+    <Compile Include="netDxf\Header\PointShape.cs" />
+    <Compile Include="netDxf\Header\DxfVersion.cs" />
+    <Compile Include="netDxf\Header\HeaderVariableCode.cs" />
+    <Compile Include="netDxf\Header\HeaderVariable.cs" />
+    <Compile Include="netDxf\Blocks\BlockEntityChangeEventArgs.cs" />
+    <Compile Include="netDxf\Blocks\Block.cs" />
+    <Compile Include="netDxf\Blocks\EndBlock.cs" />
+    <Compile Include="netDxf\Blocks\BlockRecord.cs" />
+    <Compile Include="netDxf\Blocks\BlockTypeFlags.cs" />
+    <Compile Include="netDxf\IO\BinaryCodeValueReader.cs" />
+    <Compile Include="netDxf\IO\BinaryCodeValueWriter.cs" />
+    <Compile Include="netDxf\IO\TextCodeValueWriter.cs" />
+    <Compile Include="netDxf\IO\ICodeValueWriter.cs" />
+    <Compile Include="netDxf\IO\ICodeValueReader.cs" />
+    <Compile Include="netDxf\IO\TextCodeValueReader.cs" />
+    <Compile Include="netDxf\IO\EncodingType.cs" />
+    <Compile Include="netDxf\IO\DxfReader.cs" />
+    <Compile Include="netDxf\IO\DxfWriter.cs" />
+    <Compile Include="netDxf\Objects\UnderlayDefinition.cs" />
+    <Compile Include="netDxf\Objects\UnderlayDwfDefinition.cs" />
+    <Compile Include="netDxf\Objects\UnderlayDgnDefinition.cs" />
+    <Compile Include="netDxf\Objects\UnderlayPdfDefinition.cs" />
+    <Compile Include="netDxf\Objects\UnderlayType.cs" />
+    <Compile Include="netDxf\Objects\PlotPaperUnits.cs" />
+    <Compile Include="netDxf\Objects\GroupEntityChangeEventArgs.cs" />
+    <Compile Include="netDxf\Objects\MLineStyleElementChangeEventArgs.cs" />
+    <Compile Include="netDxf\Objects\DictionaryCloningFlags.cs" />
+    <Compile Include="netDxf\Objects\ImageDefinition.cs" />
+    <Compile Include="netDxf\Objects\ImageDefinitionReactor.cs" />
+    <Compile Include="netDxf\Objects\ImageDisplayQuality.cs" />
+    <Compile Include="netDxf\Objects\Layout.cs" />
+    <Compile Include="netDxf\Objects\MLineStyle.cs" />
+    <Compile Include="netDxf\Objects\MLineStyleElement.cs" />
+    <Compile Include="netDxf\Objects\DictionaryObject.cs" />
+    <Compile Include="netDxf\Objects\Group.cs" />
+    <Compile Include="netDxf\Objects\MLineStyleFlags.cs" />
+    <Compile Include="netDxf\Objects\PlotFlags.cs" />
+    <Compile Include="netDxf\Objects\PlotRotation.cs" />
+    <Compile Include="netDxf\Objects\PlotSettings.cs" />
+    <Compile Include="netDxf\Objects\RasterVariables.cs" />
+    <Compile Include="netDxf\Objects\SupportedImageFormats.cs" />
+    <Compile Include="netDxf\Entities\AttributeChangeEventArgs.cs" />
+    <Compile Include="netDxf\Entities\DatumReferenceValue.cs" />
+    <Compile Include="netDxf\Entities\EndSequence.cs" />
+    <Compile Include="netDxf\Entities\Leader.cs" />
+    <Compile Include="netDxf\Entities\LeaderPathType.cs" />
+    <Compile Include="netDxf\Entities\LeaderTextVerticalPosition.cs" />
+    <Compile Include="netDxf\Entities\SplineCreationMethod.cs" />
+    <Compile Include="netDxf\Entities\SplineKnotParameterization.cs" />
+    <Compile Include="netDxf\Entities\Tolerance.cs" />
+    <Compile Include="netDxf\Entities\ToleranceEntry.cs" />
+    <Compile Include="netDxf\Entities\ToleranceValue.cs" />
+    <Compile Include="netDxf\Entities\ToleranceMaterialCondition.cs" />
+    <Compile Include="netDxf\Entities\ToleranceGeometricSymbol.cs" />
+    <Compile Include="netDxf\Entities\Trace.cs" />
+    <Compile Include="netDxf\Entities\Underlay.cs" />
+    <Compile Include="netDxf\Entities\UnderlayDisplayFlags.cs" />
+    <Compile Include="netDxf\Entities\Wipeout.cs" />
+    <Compile Include="netDxf\Entities\DimensionArrowhead.cs" />
+    <Compile Include="netDxf\Entities\DimensionBlock.cs" />
+    <Compile Include="netDxf\Entities\DimensionTypeFlags.cs" />
+    <Compile Include="netDxf\Entities\Mesh.cs" />
+    <Compile Include="netDxf\Entities\MeshEdge.cs" />
+    <Compile Include="netDxf\Entities\MLineFlags.cs" />
+    <Compile Include="netDxf\Entities\MLineJustification.cs" />
+    <Compile Include="netDxf\Entities\AttributeFlags.cs" />
+    <Compile Include="netDxf\Entities\Face3dEdgeFlags.cs" />
+    <Compile Include="netDxf\Entities\EntityType.cs" />
+    <Compile Include="netDxf\Entities\HatchBoundaryPathTypeFlags.cs" />
+    <Compile Include="netDxf\Entities\HatchFillType.cs" />
+    <Compile Include="netDxf\Entities\HatchGradientPatternType.cs" />
+    <Compile Include="netDxf\Entities\HatchStyle.cs" />
+    <Compile Include="netDxf\Entities\HatchType.cs" />
+    <Compile Include="netDxf\Entities\Viewport.cs" />
+    <Compile Include="netDxf\Entities\ViewportStatusFlags.cs" />
+    <Compile Include="netDxf\Entities\XLine.cs" />
+    <Compile Include="netDxf\Entities\Ray.cs" />
+    <Compile Include="netDxf\Entities\AlignedDimension.cs" />
+    <Compile Include="netDxf\Entities\Angular3PointDimension.cs" />
+    <Compile Include="netDxf\Entities\Angular2LineDimension.cs" />
+    <Compile Include="netDxf\Entities\DiametricDimension.cs" />
+    <Compile Include="netDxf\Entities\HatchGradientPattern.cs" />
+    <Compile Include="netDxf\Entities\ImageDisplayFlags.cs" />
+    <Compile Include="netDxf\Entities\Image.cs" />
+    <Compile Include="netDxf\Entities\MLine.cs" />
+    <Compile Include="netDxf\Entities\MLineVertex.cs" />
+    <Compile Include="netDxf\Entities\OrdinateDimension.cs" />
+    <Compile Include="netDxf\Entities\OrdinateDimensionAxis.cs" />
+    <Compile Include="netDxf\Entities\RadialDimension.cs" />
+    <Compile Include="netDxf\Entities\Dimension.cs" />
+    <Compile Include="netDxf\Entities\DimensionType.cs" />
+    <Compile Include="netDxf\Entities\LinearDimension.cs" />
+    <Compile Include="netDxf\Entities\PolylineSmoothType.cs" />
+    <Compile Include="netDxf\Entities\MTextAttachmentPoint.cs" />
+    <Compile Include="netDxf\Entities\MText.cs" />
+    <Compile Include="netDxf\Entities\Hatch.cs" />
+    <Compile Include="netDxf\Entities\HatchPattern.cs" />
+    <Compile Include="netDxf\Entities\HatchBoundaryPath.cs" />
+    <Compile Include="netDxf\Entities\HatchPatternLineDefinition.cs" />
+    <Compile Include="netDxf\Entities\LwPolyline.cs" />
+    <Compile Include="netDxf\Entities\LwPolylineVertex.cs" />
+    <Compile Include="netDxf\Entities\MTextFormattingOptions.cs" />
+    <Compile Include="netDxf\Entities\PolylinetypeFlags.cs" />
+    <Compile Include="netDxf\Entities\Spline.cs" />
+    <Compile Include="netDxf\Entities\SplinetypeFlags.cs" />
+    <Compile Include="netDxf\Entities\SplineVertex.cs" />
+    <Compile Include="netDxf\Entities\VertexTypeFlags.cs" />
+    <Compile Include="netDxf\Entities\MTextLineSpacingStyle.cs" />
+    <Compile Include="netDxf\Entities\Ellipse.cs" />
+    <Compile Include="netDxf\Entities\Solid.cs" />
+    <Compile Include="netDxf\Entities\TextAlignment.cs" />
+    <Compile Include="netDxf\Entities\Arc.cs" />
+    <Compile Include="netDxf\Entities\Attribute.cs" />
+    <Compile Include="netDxf\Entities\AttributeDefinition.cs" />
+    <Compile Include="netDxf\Entities\Vertex.cs" />
+    <Compile Include="netDxf\Entities\PolylineVertex.cs" />
+    <Compile Include="netDxf\Entities\Point.cs" />
+    <Compile Include="netDxf\Entities\PolyfaceMeshFace.cs" />
+    <Compile Include="netDxf\Entities\PolyfaceMeshVertex.cs" />
+    <Compile Include="netDxf\Entities\Polyline.cs" />
+    <Compile Include="netDxf\Entities\EntityObject.cs" />
+    <Compile Include="netDxf\Entities\Insert.cs" />
+    <Compile Include="netDxf\Entities\Line.cs" />
+    <Compile Include="netDxf\Entities\Circle.cs" />
+    <Compile Include="netDxf\Entities\Face3d.cs" />
+    <Compile Include="netDxf\Entities\PolyfaceMesh.cs" />
+    <Compile Include="netDxf\Entities\Text.cs" />
+    <Compile Include="netDxf\Units\AngleDirection.cs" />
+    <Compile Include="netDxf\Units\FractionFormatType.cs" />
+    <Compile Include="netDxf\Units\LinearUnitFormat.cs" />
+    <Compile Include="netDxf\Units\AngleUnitType.cs" />
+    <Compile Include="netDxf\Units\DrawingUnits.cs" />
+    <Compile Include="netDxf\Units\AngleUnitFormat.cs" />
+    <Compile Include="netDxf\Units\DrawingTime.cs" />
+    <Compile Include="netDxf\Units\ImageResolutionUnits.cs" />
+    <Compile Include="netDxf\Units\ImageUnits.cs" />
+    <Compile Include="netDxf\Units\LinearUnitType.cs" />
+    <Compile Include="netDxf\Units\UnitHelper.cs" />
+    <Compile Include="netDxf\Units\UnitStyleFormat.cs" />
+    <Compile Include="netDxf\Tables\DimensionStyleOverride.cs" />
+    <Compile Include="netDxf\Tables\DimensionStyleOverrideChangeEventArgs.cs" />
+    <Compile Include="netDxf\Tables\DimensionStyleOverrideType.cs" />
+    <Compile Include="netDxf\Tables\TableObjectChangedEventArgs!1.cs" />
+    <Compile Include="netDxf\Tables\ViewModeFlags.cs" />
+    <Compile Include="netDxf\Tables\LayerFlags.cs" />
+    <Compile Include="netDxf\Tables\UCS.cs" />
+    <Compile Include="netDxf\Tables\View.cs" />
+    <Compile Include="netDxf\Tables\ApplicationRegistry.cs" />
+    <Compile Include="netDxf\Tables\DimensionStyle.cs" />
+    <Compile Include="netDxf\Tables\VPort.cs" />
+    <Compile Include="netDxf\Tables\TableObject.cs" />
+    <Compile Include="netDxf\Tables\Layer.cs" />
+    <Compile Include="netDxf\Tables\Linetype.cs" />
+    <Compile Include="netDxf\Tables\TextStyle.cs" />
+    <Compile Include="netDxf\Collections\DimensionStyleOverrideDictionaryEventArgs.cs" />
+    <Compile Include="netDxf\Collections\DimensionStyleOverrideDictionary.cs" />
+    <Compile Include="netDxf\Collections\ObservableCollection!1.cs" />
+    <Compile Include="netDxf\Collections\ObservableCollectionEventArgs!1.cs" />
+    <Compile Include="netDxf\Collections\ObservableDictionary!2.cs" />
+    <Compile Include="netDxf\Collections\ObservableDictionaryEventArgs!2.cs" />
+    <Compile Include="netDxf\Collections\AttributeCollection.cs" />
+    <Compile Include="netDxf\Collections\UnderlayDgnDefinitions.cs" />
+    <Compile Include="netDxf\Collections\UnderlayDwfDefinitions.cs" />
+    <Compile Include="netDxf\Collections\UnderlayPdfDefinitions.cs" />
+    <Compile Include="netDxf\Collections\AttributeDefinitionDictionary.cs" />
+    <Compile Include="netDxf\Collections\AttributeDefinitionDictionaryEventArgs.cs" />
+    <Compile Include="netDxf\Collections\EntityCollection.cs" />
+    <Compile Include="netDxf\Collections\EntityCollectionEventArgs.cs" />
+    <Compile Include="netDxf\Collections\XDataDictionary.cs" />
+    <Compile Include="netDxf\Collections\Layouts.cs" />
+    <Compile Include="netDxf\Collections\Views.cs" />
+    <Compile Include="netDxf\Collections\VPorts.cs" />
+    <Compile Include="netDxf\Collections\ApplicationRegistries.cs" />
+    <Compile Include="netDxf\Collections\BlockRecords.cs" />
+    <Compile Include="netDxf\Collections\Groups.cs" />
+    <Compile Include="netDxf\Collections\UCSs.cs" />
+    <Compile Include="netDxf\Collections\DimensionStyles.cs" />
+    <Compile Include="netDxf\Collections\ImageDefinitions.cs" />
+    <Compile Include="netDxf\Collections\Layers.cs" />
+    <Compile Include="netDxf\Collections\Linetypes.cs" />
+    <Compile Include="netDxf\Collections\MLineStyles.cs" />
+    <Compile Include="netDxf\Collections\TableObjects!1.cs" />
+    <Compile Include="netDxf\Collections\TextStyles.cs" />
+  </ItemGroup>
+</Project>
