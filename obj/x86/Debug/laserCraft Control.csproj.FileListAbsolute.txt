@@ -1,0 +1,67 @@
+F:\VuAnhTuan\khaithien\Code\obj\x86\Debug\laserCraft Control.csprojResolveAssemblyReference.cache
+F:\VuAnhTuan\khaithien\Code\obj\x86\Debug\laserCraft_Control.frmMain.resources
+F:\VuAnhTuan\khaithien\Code\obj\x86\Debug\laserCraft_Control.frmSettings.resources
+F:\VuAnhTuan\khaithien\Code\obj\x86\Debug\laserCraft_Control.frmSplash.resources
+F:\VuAnhTuan\khaithien\Code\obj\x86\Debug\laserCraft_Control.Properties.Resources.resources
+F:\VuAnhTuan\khaithien\Code\obj\x86\Debug\laserCraft Control.csproj.GenerateResource.Cache
+F:\VuAnhTuan\khaithien\Code\bin\Debug\laserCraft Control.exe.config
+F:\VuAnhTuan\khaithien\Code\bin\Debug\laserCraft Control.exe
+F:\VuAnhTuan\khaithien\Code\bin\Debug\laserCraft Control.pdb
+F:\VuAnhTuan\khaithien\Code\bin\Debug\Ruler.dll
+F:\VuAnhTuan\khaithien\Code\bin\Debug\Ruler.pdb
+F:\VuAnhTuan\khaithien\Code\obj\x86\Debug\laserCraft Control.exe
+F:\VuAnhTuan\khaithien\Code\obj\x86\Debug\laserCraft Control.pdb
+F:\VuAnhTuan\khaithien\Code\obj\x86\Debug\laserCraft_Control.frmAbout.resources
+D:\Setup\Driver\Laser craft\LaserCraft New Desgin\bin\Debug\laserCraft Control.exe.config
+D:\Setup\Driver\Laser craft\LaserCraft New Desgin\bin\Debug\laserCraft Control.exe
+D:\Setup\Driver\Laser craft\LaserCraft New Desgin\bin\Debug\laserCraft Control.pdb
+D:\Setup\Driver\Laser craft\LaserCraft New Desgin\bin\Debug\Ruler.dll
+D:\Setup\Driver\Laser craft\LaserCraft New Desgin\bin\Debug\Ruler.pdb
+D:\Setup\Driver\Laser craft\LaserCraft New Desgin\obj\x86\Debug\laserCraft Control.csprojResolveAssemblyReference.cache
+D:\Setup\Driver\Laser craft\LaserCraft New Desgin\obj\x86\Debug\laserCraft_Control.CusDeginCtrl.resources
+D:\Setup\Driver\Laser craft\LaserCraft New Desgin\obj\x86\Debug\laserCraft_Control.frmAbout.resources
+D:\Setup\Driver\Laser craft\LaserCraft New Desgin\obj\x86\Debug\laserCraft_Control.frmMain.resources
+D:\Setup\Driver\Laser craft\LaserCraft New Desgin\obj\x86\Debug\laserCraft_Control.frmMaterialTemplete.resources
+D:\Setup\Driver\Laser craft\LaserCraft New Desgin\obj\x86\Debug\laserCraft_Control.frmSettings.resources
+D:\Setup\Driver\Laser craft\LaserCraft New Desgin\obj\x86\Debug\laserCraft_Control.frmSplash.resources
+D:\Setup\Driver\Laser craft\LaserCraft New Desgin\obj\x86\Debug\laserCraft_Control.Properties.Resources.resources
+D:\Setup\Driver\Laser craft\LaserCraft New Desgin\obj\x86\Debug\laserCraft_Control.SceneCtrl.resources
+D:\Setup\Driver\Laser craft\LaserCraft New Desgin\obj\x86\Debug\laserCraft Control.csproj.GenerateResource.Cache
+D:\Setup\Driver\Laser craft\LaserCraft New Desgin\obj\x86\Debug\laserCraft Control.exe
+D:\Setup\Driver\Laser craft\LaserCraft New Desgin\obj\x86\Debug\laserCraft Control.pdb
+D:\Project\LaserCraft New Desgin\bin\Debug\laserCraft Control.exe.config
+D:\Project\LaserCraft New Desgin\bin\Debug\laserCraft Control.exe
+D:\Project\LaserCraft New Desgin\bin\Debug\laserCraft Control.pdb
+D:\Project\LaserCraft New Desgin\bin\Debug\Ruler.dll
+D:\Project\LaserCraft New Desgin\bin\Debug\Ruler.pdb
+D:\Project\LaserCraft New Desgin\obj\x86\Debug\laserCraft Control.csprojResolveAssemblyReference.cache
+D:\Project\LaserCraft New Desgin\obj\x86\Debug\laserCraft_Control.CusDeginCtrl.resources
+D:\Project\LaserCraft New Desgin\obj\x86\Debug\laserCraft_Control.frmAbout.resources
+D:\Project\LaserCraft New Desgin\obj\x86\Debug\laserCraft_Control.frmMain.resources
+D:\Project\LaserCraft New Desgin\obj\x86\Debug\laserCraft_Control.frmMaterialTemplete.resources
+D:\Project\LaserCraft New Desgin\obj\x86\Debug\laserCraft_Control.frmSettings.resources
+D:\Project\LaserCraft New Desgin\obj\x86\Debug\laserCraft_Control.frmSplash.resources
+D:\Project\LaserCraft New Desgin\obj\x86\Debug\laserCraft_Control.Properties.Resources.resources
+D:\Project\LaserCraft New Desgin\obj\x86\Debug\laserCraft_Control.SceneCtrl.resources
+D:\Project\LaserCraft New Desgin\obj\x86\Debug\laserCraft Control.csproj.GenerateResource.Cache
+D:\Project\LaserCraft New Desgin\obj\x86\Debug\laserCraft Control.exe
+D:\Project\LaserCraft New Desgin\obj\x86\Debug\laserCraft Control.pdb
+E:\Setup\Driver\LaserCuter\LaserCraft New Desgin\bin\Debug\laserCraft Control.exe.config
+E:\Setup\Driver\LaserCuter\LaserCraft New Desgin\bin\Debug\laserCraft Control.exe
+E:\Setup\Driver\LaserCuter\LaserCraft New Desgin\bin\Debug\laserCraft Control.pdb
+E:\Setup\Driver\LaserCuter\LaserCraft New Desgin\bin\Debug\Ruler.dll
+E:\Setup\Driver\LaserCuter\LaserCraft New Desgin\bin\Debug\Ruler.pdb
+E:\Setup\Driver\LaserCuter\LaserCraft New Desgin\obj\x86\Debug\laserCraft Control.csprojAssemblyReference.cache
+E:\Setup\Driver\LaserCuter\LaserCraft New Desgin\obj\x86\Debug\laserCraft_Control.CusDeginCtrl.resources
+E:\Setup\Driver\LaserCuter\LaserCraft New Desgin\obj\x86\Debug\laserCraft_Control.frmAbout.resources
+E:\Setup\Driver\LaserCuter\LaserCraft New Desgin\obj\x86\Debug\laserCraft_Control.frmMain.resources
+E:\Setup\Driver\LaserCuter\LaserCraft New Desgin\obj\x86\Debug\laserCraft_Control.frmMaterialTemplete.resources
+E:\Setup\Driver\LaserCuter\LaserCraft New Desgin\obj\x86\Debug\laserCraft_Control.frmSettings.resources
+E:\Setup\Driver\LaserCuter\LaserCraft New Desgin\obj\x86\Debug\laserCraft_Control.frmSplash.resources
+E:\Setup\Driver\LaserCuter\LaserCraft New Desgin\obj\x86\Debug\laserCraft_Control.Properties.Resources.resources
+E:\Setup\Driver\LaserCuter\LaserCraft New Desgin\obj\x86\Debug\laserCraft_Control.SceneCtrl.resources
+E:\Setup\Driver\LaserCuter\LaserCraft New Desgin\obj\x86\Debug\laserCraft Control.csproj.GenerateResource.cache
+E:\Setup\Driver\LaserCuter\LaserCraft New Desgin\obj\x86\Debug\laserCraft Control.csproj.CoreCompileInputs.cache
+E:\Setup\Driver\LaserCuter\LaserCraft New Desgin\obj\x86\Debug\laserCraft Control.csproj.CopyComplete
+E:\Setup\Driver\LaserCuter\LaserCraft New Desgin\obj\x86\Debug\laserCraft Control.exe
+E:\Setup\Driver\LaserCuter\LaserCraft New Desgin\obj\x86\Debug\laserCraft Control.pdb
