@@ -1,0 +1,15 @@
+F:\VuAnhTuan\khaithien\Code\ruler\bin\Debug\Ruler.dll
+F:\VuAnhTuan\khaithien\Code\ruler\bin\Debug\Ruler.pdb
+F:\VuAnhTuan\khaithien\Code\ruler\obj\x86\Debug\Ruler.dll
+F:\VuAnhTuan\khaithien\Code\ruler\obj\x86\Debug\Ruler.pdb
+F:\VuAnhTuan\khaithien\Code\ruler\obj\x86\Debug\Ruler.csprojResolveAssemblyReference.cache
+D:\Setup\Driver\Laser craft\LaserCraft New Desgin\ruler\bin\Debug\Ruler.dll
+D:\Setup\Driver\Laser craft\LaserCraft New Desgin\ruler\bin\Debug\Ruler.pdb
+D:\Setup\Driver\Laser craft\LaserCraft New Desgin\ruler\obj\x86\Debug\Ruler.dll
+D:\Setup\Driver\Laser craft\LaserCraft New Desgin\ruler\obj\x86\Debug\Ruler.pdb
+E:\Setup\Driver\LaserCuter\LaserCraft New Desgin\ruler\bin\Debug\Ruler.dll
+E:\Setup\Driver\LaserCuter\LaserCraft New Desgin\ruler\bin\Debug\Ruler.pdb
+E:\Setup\Driver\LaserCuter\LaserCraft New Desgin\ruler\obj\x86\Debug\Ruler.csprojAssemblyReference.cache
+E:\Setup\Driver\LaserCuter\LaserCraft New Desgin\ruler\obj\x86\Debug\Ruler.csproj.CoreCompileInputs.cache
+E:\Setup\Driver\LaserCuter\LaserCraft New Desgin\ruler\obj\x86\Debug\Ruler.dll
+E:\Setup\Driver\LaserCuter\LaserCraft New Desgin\ruler\obj\x86\Debug\Ruler.pdb
